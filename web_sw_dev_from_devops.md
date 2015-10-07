@@ -10,11 +10,56 @@ title: Web-Software Development from DevOps view
 
 
 ---
-= data-x='1000'
-## HEADER 
+= data-x='1000' id='oldtools1'
+## Tools we used to manage our software
 
-* TOP1
-* TOP2
+* cp
+* rsync
+* vi
+* nano
+* kate
+
+---
+= data-x='1000' id='oldtools2'
+## Problems with our (old) tools
+
+* no old revisions
+* multiple different versions in production
+* 
+
+---
+= data-x='1000' id='centralvcs1'
+## Tools we used to manage our software
+
+* [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System)
+* [Subversion](https://en.wikipedia.org/wiki/Apache_Subversion)
+* [RCS](https://en.wikipedia.org/wiki/Revision_Control_System)
+
+---
+= data-x='1000' id='centralvcs2'
+## [Client-server version control software](https://en.wikipedia.org/wiki/List_of_version_control_software#Client-server_model)
+
+* One linear software repository
+* Server down, no development
+
+<img style="position: relative; left:80px; top: 15px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
+ 
+---
+= data-x='1000' data-rotate="90" id='distributedvcs1'
+## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) (recently moves)
+
+* [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)
+* [Mercurial / HG](https://en.wikipedia.org/wiki/Mercurial_(software))
+* [Bazaar](https://en.wikipedia.org/wiki/Bazaar_(software))
+* [Git](https://en.wikipedia.org/wiki/Git_(software))
+
+---
+= data-x='1000' id='distributedvcs2'
+## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
+
+[TODO]
+
+<img style="position: relative; left:80px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
 
 ---
 = data-x='1000'
