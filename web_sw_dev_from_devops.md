@@ -28,6 +28,7 @@ title: Web-Software Development from DevOps view
 
 * no old revisions
 * multiple different versions (forks) in production
+* distributed via scp/rsync
 * [TODO]
 
 ---
@@ -70,6 +71,14 @@ title: Web-Software Development from DevOps view
 [TODO]
 
 <img style="position: relative; left:80px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
+
+---
+= data-x='1000' id='distributedvcs2'
+## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
+
+* Local development possible
+* Even with branches, tags ...
+* Exchange of code with all participants possible directly
 
 ---
 = data-x='1000'
