@@ -48,7 +48,14 @@ title: Web-Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
  
 ---
-= data-x='1000' data-rotate="90" id='distributedvcs1'
+= data-x='1000' data-rotate="90" id='whatnext'
+## And now?
+
+* How to fix some of those issues?
+* [TODO] - Entertainment
+
+---
+= data-x='1000' id='distributedvcs1'
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) (recently moves)
 
 * [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)
