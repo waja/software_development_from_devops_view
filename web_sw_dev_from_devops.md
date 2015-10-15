@@ -25,7 +25,7 @@ title: Web-Software Development from DevOps view
 
 * no old revisions
 * multiple different versions in production
-* 
+* [TODO]
 
 ---
 = data-x='1000' id='centralvcs1'
@@ -72,4 +72,6 @@ title: Web-Software Development from DevOps view
 
 ## Credits 
 
+* [SVN Structure](https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png)
+* [Git client/server](https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png)
 * [Foo](http://foo.bar) by FooBar
