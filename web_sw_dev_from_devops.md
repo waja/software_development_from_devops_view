@@ -18,13 +18,16 @@ title: Web-Software Development from DevOps view
 * vi
 * nano
 * kate
+* joe
+* eclipse
+* netbeans
 
 ---
 = data-x='1000' id='oldtools2'
 ## Problems with our (old) tools
 
 * no old revisions
-* multiple different versions in production
+* multiple different versions (forks) in production
 * [TODO]
 
 ---
