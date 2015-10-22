@@ -81,8 +81,9 @@ title: Web-Software Development from DevOps view
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
 
 * Local development possible
-* Even with branches, tags ...
-* Exchange of code with all participants possible directly
+	* commiting, branching, tagging ...
+	* working offline
+* Exchange of code with all participants possible - directly
 
 ---
 = data-x='1000'
