@@ -106,12 +106,23 @@ title: Web-Software Development from DevOps view
 ---
 = data-x='1000' id='dvcsworkflow2'
 
-##The usual branches
+## The usual branches
 
 <img style="position: relative; left:80px; top: 15px" width="267" src="http://nvie.com/img/main-branches@2x.png" alt="usual branches">
 
-* master branch - production ready state
-* develop branch - development (integration) state
+* ```master``` branch - production ready state
+* ```develop``` branch - development (integration) state
+
+---
+= data-x='1000' id='dvcsworkflow3'
+
+## Support branches
+
+* unlike the long-running ```master``` and ```develop``` branches, there are branches with limited life time
+* for example there might different types of branches
+	- feature (topic) branches
+	- release branches
+	- hotfix branch
 
 ---
 = data-x='1000'
