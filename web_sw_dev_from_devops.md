@@ -58,6 +58,7 @@ title: Web-Software Development from DevOps view
 ## [Client-server version control software](https://en.wikipedia.org/wiki/List_of_version_control_software#Client-server_model)
 
 * One linear software repository
+	* with all versions
 * Server down, no development
 
 <img style="position: relative; left:80px; top: 15px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
