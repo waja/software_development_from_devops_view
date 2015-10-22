@@ -149,6 +149,18 @@ title: Web-Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px" height="425"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow">
 
 ---
+= data-x='1000' id='dvcsworkflow6'
+
+## Hotfix branches
+
+* May branch of ```master```
+* Must merged back into ```develop``` AND ```master```
+* Branch naming convention: ```hotfix-*```
+* Special form of release branch
+
+<img style="position: relative; left:80px; top: 15px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch">
+
+---
 = data-x='1000'
 ## Slides
 
@@ -165,4 +177,5 @@ title: Web-Software Development from DevOps view
 * [The main branches](http://nvie.com/img/main-branches@2x.png)
 * [Feature branches](http://nvie.com/img/fb@2x.png)
 * [Flow](http://lanziani.com/slides/gitflow/images/gitflow_1.png)
+* [Hotfix branch](http://nvie.com/img/hotfix-branches@2x.png)
 * [Foo](http://foo.bar) by FooBar
