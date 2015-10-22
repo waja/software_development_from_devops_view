@@ -36,6 +36,16 @@ title: Web-Software Development from DevOps view
 * [TODO]
 
 ---
+= data-x='1000' id='vcs'
+## Way out?
+
+- __V__ersion __C__ontrol __S__ystem
+	- tracks __changes of files and folder__
+	- when = date of the commit
+	- who = name of author
+	- why = commit message
+
+---
 = data-x='1000' id='centralvcs1'
 ## Tools we used to manage our software
 
