@@ -125,6 +125,18 @@ title: Web-Software Development from DevOps view
 	- hotfix branch
 
 ---
+= data-x='1000' id='dvcsworkflow4'
+
+## Feature branches
+
+* May branch of ```develop``` or any other feature branch
+* Must merged back into ```develop```
+	* If not, it will be discarded (and deleted)
+* Naming convention needed
+
+<img style="position: relative; left:80px; top: 15px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
+
+---
 = data-x='1000'
 ## Slides
 
@@ -139,4 +151,5 @@ title: Web-Software Development from DevOps view
 * [Git client/server](https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png)
 * [Decentralized but centralized](http://nvie.com/img/centr-decentr@2x.png)
 * [The main branches](http://nvie.com/img/main-branches@2x.png)
+* [Feature branches](http://nvie.com/img/fb@2x.png)
 * [Foo](http://foo.bar) by FooBar
