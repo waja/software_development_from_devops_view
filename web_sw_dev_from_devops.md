@@ -26,8 +26,12 @@ title: Web-Software Development from DevOps view
 = data-x='1000' id='oldtools2'
 ## Problems with our (old) tools
 
-* no old revisions
+* no chronological revisions
 * multiple different versions (forks) in production
+* multiple different local versions
+	* f00b4r.php
+	* f00b4r_20040410.php
+	* f00b4r_production.php
 * distributed via scp/rsync
 * [TODO]
 
