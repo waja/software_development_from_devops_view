@@ -99,9 +99,19 @@ title: Web-Software Development from DevOps view
 ---
 = data-x='1000' id='dvcsworkflow1'
 
-##Centralized decentralized
+## Centralized decentralized
 
 <img style="position: relative; left:80px; top: 55px" width="487" src="http://nvie.com/img/centr-decentr@2x.png" alt="centralized decentralized">
+
+---
+= data-x='1000' id='dvcsworkflow2'
+
+##The usual branches
+
+<img style="position: relative; left:80px; top: 15px" width="267" src="http://nvie.com/img/main-branches@2x.png" alt="usual branches">
+
+* master branch - production ready state
+* develop branch - development (integration) state
 
 ---
 = data-x='1000'
@@ -117,4 +127,5 @@ title: Web-Software Development from DevOps view
 * [SVN Structure](https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png)
 * [Git client/server](https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png)
 * [Decentralized but centralized](http://nvie.com/img/centr-decentr@2x.png)
+* [The main branches](http://nvie.com/img/main-branches@2x.png)
 * [Foo](http://foo.bar) by FooBar
