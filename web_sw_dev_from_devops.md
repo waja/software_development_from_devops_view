@@ -133,6 +133,7 @@ title: Web-Software Development from DevOps view
 * Must merged back into ```develop```
 	* If not, it will be discarded (and deleted)
 * Branch naming convention needed
+* Typically exist in developer repos only, not in origin
 
 <img style="position: relative; left:80px; top: 15px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
 
