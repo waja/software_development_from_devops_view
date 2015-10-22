@@ -132,9 +132,20 @@ title: Web-Software Development from DevOps view
 * May branch of ```develop``` or any other feature branch
 * Must merged back into ```develop```
 	* If not, it will be discarded (and deleted)
-* Naming convention needed
+* Branch naming convention needed
 
 <img style="position: relative; left:80px; top: 15px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
+
+---
+= data-x='1000' id='dvcsworkflow5'
+
+## Release branches
+
+* May branch of ```develop```
+* Must merged back into ```develop``` AND ```master```
+* Branch naming convention: ```release-*```
+
+<img style="position: relative; left:80px; top: 15px" height="425"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow">
 
 ---
 = data-x='1000'
@@ -152,4 +163,5 @@ title: Web-Software Development from DevOps view
 * [Decentralized but centralized](http://nvie.com/img/centr-decentr@2x.png)
 * [The main branches](http://nvie.com/img/main-branches@2x.png)
 * [Feature branches](http://nvie.com/img/fb@2x.png)
+* [Flow](http://lanziani.com/slides/gitflow/images/gitflow_1.png)
 * [Foo](http://foo.bar) by FooBar
