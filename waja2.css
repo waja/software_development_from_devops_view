@@ -112,7 +112,7 @@ a {
 	-ms-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	font-weight:bold;
+	border-bottom: 1px solid #ddd;
 }
 
 a:hover {
