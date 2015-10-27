@@ -103,6 +103,8 @@ title: Web-Software Development from DevOps view
 
 <img style="position: relative; left:80px; top: 55px" width="487" src="http://nvie.com/img/centr-decentr@2x.png" alt="centralized decentralized">
 
+<a style="font-size:xx-small; position: relative; left:580px; top: 55px" href="#centralvcs2">central VCS</a> <!--TODO-->
+
 ---
 = data-x='1000' id='dvcsworkflow2'
 
