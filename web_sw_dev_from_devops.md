@@ -7,7 +7,7 @@ title: Web-Software Development from DevOps view
 
 <br>
 <img style="position: relative; left:800px; top: 175px " src="images/image.png" alt="Just a not (yet) existing image.">
-
+<!--TODO-->
 
 ---
 = data-x='1000' id='oldtools1'
@@ -33,7 +33,7 @@ title: Web-Software Development from DevOps view
 	* f00b4r_20040410.php
 	* f00b4r_production.php
 * distributed via scp/rsync
-* [TODO]
+<!--TODO-->
 
 ---
 = data-x='1000' id='vcs'
@@ -68,7 +68,7 @@ title: Web-Software Development from DevOps view
 ## And now?
 
 * How to fix some of those issues?
-* [TODO] - Entertainment
+<!--TODO - Entertainment-->
 
 ---
 = data-x='1000' id='distributedvcs1'
@@ -83,7 +83,7 @@ title: Web-Software Development from DevOps view
 = data-x='1000' id='distributedvcs2'
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
 
-[TODO]
+<!--TODO-->
 
 <img style="position: relative; left:80px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
 
