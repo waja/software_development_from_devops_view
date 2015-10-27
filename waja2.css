@@ -10,11 +10,6 @@ body {
 
 body {
 	min-height: 740px;
-	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
-	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
-	background: -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-	background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 	pointer-events: none;	/* Fix Body Click */
 }
 
