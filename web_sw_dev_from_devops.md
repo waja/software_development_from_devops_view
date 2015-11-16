@@ -185,6 +185,17 @@ title: Web-Software Development from DevOps view
 * [Coverity](http://www.coverity.com/why-coverity/#Developers) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
 
 ---
+= data-x='1000' id='plugins3'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Code contributions
+
+* via [Pull Requests](https://github.com/monitoring-plugins/monitoring-plugins/pulls)
+* Work by [developers](https://www.monitoring-plugins.org/team.html)
+	* done in Feature branches
+	* even those are reviewed by other members usually through Pull Requests
+
+---
 = data-x='1000'
 ## Slides
 
