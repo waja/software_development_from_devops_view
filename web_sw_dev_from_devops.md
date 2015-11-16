@@ -164,6 +164,16 @@ title: Web-Software Development from DevOps view
 
 ---
 = data-x='1000' id='plugins1'
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### [Team Communication](https://www.monitoring-plugins.org/support.html)
+
+* Mailing Lists
+* Issues / Pull Requests
+* IRC
+	* most usual
+
+---
+= data-x='1000' id='plugins2'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Usual [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
@@ -176,7 +186,7 @@ title: Web-Software Development from DevOps view
 	* Branches where developers are working on specific problems
 
 ---
-= data-x='1000' id='plugins2'
+= data-x='1000' id='plugins3'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Special [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
@@ -185,7 +195,7 @@ title: Web-Software Development from DevOps view
 * [Coverity](http://www.coverity.com/why-coverity/#Developers) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
 
 ---
-= data-x='1000' id='plugins3'
+= data-x='1000' id='plugins4'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Code contributions
