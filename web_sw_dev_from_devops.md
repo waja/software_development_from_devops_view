@@ -62,7 +62,7 @@ title: Web-Software Development from DevOps view
 * Server down, no development
 
 <img style="position: relative; left:80px; top: 15px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
- 
+
 ---
 = data-x='1000' data-rotate="90" id='whatnext'
 ## And now?
@@ -163,6 +163,19 @@ title: Web-Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch">
 
 ---
+= data-x='1000' id='plugins1'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Usual [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
+
+* Development - [_master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/master)
+* Hotfixes - [_maint-X.Y_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/maint-2.1)
+	* usual ```cherry-pick``` from _master_
+* Feature - no strict naming convention
+	* Pull Requests from external contributors
+	* Branches where developers are working on specific problems
+
+---
 = data-x='1000'
 ## Slides
 
@@ -171,7 +184,7 @@ title: Web-Software Development from DevOps view
 * Mail: Jan Wagner <waja@cyconet.org>  
 
 
-## Credits 
+## Credits
 
 * [SVN Structure](https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png)
 * [Git client/server](https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png)
