@@ -176,6 +176,15 @@ title: Web-Software Development from DevOps view
 	* Branches where developers are working on specific problems
 
 ---
+= data-x='1000' id='plugins2'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Special [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
+
+* Proposed Updates - [_pu_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/pu)
+* [Coverity](http://www.coverity.com/why-coverity/#Developers) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
+
+---
 = data-x='1000'
 ## Slides
 
