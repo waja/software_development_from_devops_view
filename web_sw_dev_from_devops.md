@@ -1,8 +1,8 @@
 ---
 author: Jan Wagner <waja@cyconet.org>
-title: Web-Software Development from DevOps view
+title: Software Development from DevOps view
 ---
-## Web-Software Development from DevOps view
+## Software Development from DevOps view
 ### Jan Wagner <waja@cyconet.org>
 
 <br>
