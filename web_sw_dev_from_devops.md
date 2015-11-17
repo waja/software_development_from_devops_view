@@ -210,6 +210,17 @@ title: Software Development from DevOps view
 	* even those are reviewed by other members usually through Pull Requests
 
 ---
+= data-x='1000' id='plugins5'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Quality Assurance
+
+* We ship test [cases](http://www.monitoring-plugins.org/doc/guidelines.html#TESTCASES) for plugins and C library functions
+* ```make test``` runs those
+* Can we take further?
+	* Yes we did!
+
+---
 = data-x='1000'
 ## Slides
 
