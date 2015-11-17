@@ -310,6 +310,21 @@ Development practice where:
 	* Poor tests results into bad code quality
 
 ---
+= data-x='1000' id='ci4'
+
+## CI - For (PHP-)Webapplications
+
+* Get an idea see [Travis-CI - Building a PHP project](http://docs.travis-ci.com/user/languages/php/)
+* Obviously based on [PHPUnit](https://en.wikipedia.org/wiki/PHPUnit)
+* Maybe try [Atoum](https://github.com/atoum/atoum)
+* Bulletproof: [Phpunit VW Extension](https://github.com/hmlb/phpunit-vw)
+
+### Cookbooks
+
+* [Testing PHP code using Docker](http://scene-si.org/2015/10/06/testing-php-code-using-docker/)
+* [Running PHPUnit in Isolated Environments with Ubuntu, Docker, Gitlab &amp; Gitlab CI](http://dor.ky/running-phpunit-in-isolated-environments-with-ubuntu-docker-gitlab-gitlab-ci/)
+
+---
 = data-x='1000'
 ## Slides
 
