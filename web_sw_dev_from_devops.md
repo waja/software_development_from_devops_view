@@ -346,6 +346,29 @@ Development practice where:
 * [SensioLabsInsight](https://insight.sensiolabs.com/)
 
 ---
+= data-x='1000' id='agile1'
+
+## Domesticating Developers and Project Management
+
+### Many [Software development methodologies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies#Software_development_methodology)
+
+* [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+* [Pair programming](https://en.wikipedia.org/wiki/Pair_programming)
+* [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
+
+---
+= data-x='1000' id='agile2'
+
+## Kanban Software
+
+* [Kanboard](http://kanboard.net/features)
+* [Wekan](https://wekan.io/)
+* [Leanlabs Kanban](http://kanban.leanlabs.io/)
+* [Kantree](https://kantree.io/)
+* [Taiga](https://taiga.io/)
+* [Laboard](https://laboard.io/)
+
+---
 = data-x='1000'
 ## Slides
 
