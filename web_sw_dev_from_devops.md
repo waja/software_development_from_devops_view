@@ -278,6 +278,38 @@ title: Software Development from DevOps view
 <img style="position: relative; left:75px; top: 25px " src="images/coverity_defects.png" alt="Defects found by Coverity">
 
 ---
+= data-x='1000' id='ci1'
+
+## [Continuous](https://en.wikipedia.org/wiki/Continuous_integration) what? Integration!
+
+Development practice where:
+
+* Developers push code regularly
+* (Build and) verified automatically
+* Developers (and PM) are notified of the code (and build) status
+	* Usually when state changes
+
+---
+= data-x='1000' id='ci2'
+
+## CI - why?
+
+* Be aware of regressions and problems at an early stage
+* Increase productivity and project pace
+* Increase reliability of your deployments
+
+---
+= data-x='1000' id='ci3'
+
+## CI - Caveat
+
+* Automated tests depends on
+	* Quality of your tests
+	* Coverage of your tests
+* Developers may only focus on succeeding tests
+	* Poor tests results into bad code quality
+
+---
 = data-x='1000'
 ## Slides
 
