@@ -325,6 +325,27 @@ Development practice where:
 * [Running PHPUnit in Isolated Environments with Ubuntu, Docker, Gitlab &amp; Gitlab CI](http://dor.ky/running-phpunit-in-isolated-environments-with-ubuntu-docker-gitlab-gitlab-ci/)
 
 ---
+= data-x='1000' id='cq1'
+
+## Code Quality
+
+### Overview
+
+* [The PHP Quality Assurance Toolchain](http://phpqatools.org/)
+* [PHP: Quality Assurance](https://qa.php.net/write-test.php)
+
+### Additional software packages
+
+* [GrumPHP - composer plugin](https://github.com/phpro/grumphp)
+* [Brackets/Edge Code extension](https://github.com/mikaeljorhult/brackets-php-code-quality-tools)
+
+### Hosted Services
+
+* [Scrutinizer CI](https://scrutinizer-ci.com/)
+* [Code Climate](https://codeclimate.com/)
+* [SensioLabsInsight](https://insight.sensiolabs.com/)
+
+---
 = data-x='1000'
 ## Slides
 
