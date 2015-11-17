@@ -221,6 +221,53 @@ title: Software Development from DevOps view
 	* Yes we did!
 
 ---
+= data-x='1000' id='plugins6'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Quality Assurance
+
+* Automation with [Travis-CI](https://travis-ci.org)
+	* Compiling and [running](https://travis-ci.org/monitoring-plugins/monitoring-plugins/builds/89240468) ```make test``` on every push (to github)
+
+<img style="position: relative; left:10px; top: 25px " src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci">
+
+---
+= data-x='1000' id='plugins7'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Quality Assurance
+
+* Automation with [Travis-CI](https://travis-ci.org)
+	* This happens also for Pull Requests
+	* Can be observed directly in the PR
+
+<img style="position: relative; left:10px; top: 25px " src="images/mp_github_check_passed.png" alt="All checks passed on github">
+
+---
+= data-x='1000' id='plugins8'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Quality Assurance
+
+* Reliability of (Travis-)[CI](https://en.wikipedia.org/wiki/Continuous_integration)
+	* Only as good as coverage of ```make test```
+	* When depending on external infrastructure, this may vary
+	* Depends on reliability of CI-infrastructure / build servers
+
+
+---
+= data-x='1000' id='plugins9'
+
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### Quality Assurance
+
+* Code Quality
+	* [Static code](https://scan.coverity.com/projects/1435) analysis performed by [Coverity Scan](https://scan.coverity.com/)
+	* Merged _master_ via cronjob once a week into _coverity/master_, Travis triggers the Coverity Scan
+
+<img style="position: relative; left:75px; top: 25px " src="images/coverity_defects.png" alt="Defects found by Coverity">
+
+---
 = data-x='1000'
 ## Slides
 
