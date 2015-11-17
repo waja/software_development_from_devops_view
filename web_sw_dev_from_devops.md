@@ -200,6 +200,16 @@ title: Software Development from DevOps view
 
 ---
 = data-x='1000' id='plugins4'
+## [Monitoring Plugins](https://www.monitoring-plugins.org/)
+### [Milestones](https://github.com/monitoring-plugins/monitoring-plugins/milestones)
+
+* For priorizing work and problems, we are using [Milestones](https://en.wikipedia.org/wiki/Milestone_(project_management))
+* Issues and Pull Requests are targeted for Milestones
+
+<img style="position: relative; left:50px; top: 25px " src="images/mp_github_milestones.png" alt="Milestones on github">
+
+---
+= data-x='1000' id='plugins5'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Code contributions
@@ -210,7 +220,7 @@ title: Software Development from DevOps view
 	* even those are reviewed by other members usually through Pull Requests
 
 ---
-= data-x='1000' id='plugins5'
+= data-x='1000' id='plugins6'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -221,7 +231,7 @@ title: Software Development from DevOps view
 	* Yes we did!
 
 ---
-= data-x='1000' id='plugins6'
+= data-x='1000' id='plugins7'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -232,7 +242,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:10px; top: 25px " src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci">
 
 ---
-= data-x='1000' id='plugins7'
+= data-x='1000' id='plugins8'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -244,7 +254,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:10px; top: 25px " src="images/mp_github_check_passed.png" alt="All checks passed on github">
 
 ---
-= data-x='1000' id='plugins8'
+= data-x='1000' id='plugins9'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -256,7 +266,7 @@ title: Software Development from DevOps view
 
 
 ---
-= data-x='1000' id='plugins9'
+= data-x='1000' id='plugins10'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
