@@ -167,10 +167,14 @@ title: Software Development from DevOps view
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### [Team Communication](https://www.monitoring-plugins.org/support.html)
 
-* Mailing Lists
-* Issues / Pull Requests
-* IRC
-	* most usual
+* [Mailing Lists](https://www.monitoring-plugins.org/support.html)
+	* For legacy reasons
+	* Mail seems not much loved these days
+* [Issues](https://github.com/monitoring-plugins/monitoring-plugins/issues) / [Pull Requests](https://github.com/monitoring-plugins/monitoring-plugins/pulls)
+	* Fits developers workflow
+* [IRC](http://webchat.freenode.net/?channels=monitoring-plugins)
+	* Most usual
+	* Realtime communication for peer coding, release work and discussions
 
 ---
 = data-x='1000' id='plugins2'
