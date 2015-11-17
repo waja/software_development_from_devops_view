@@ -196,7 +196,7 @@ title: Software Development from DevOps view
 ### Special [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
 
 * Proposed Updates - [_pu_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/pu)
-* [Coverity](http://www.coverity.com/why-coverity/#Developers) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
+* [Coverity](http://www.coverity.com/why-coverity/) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
 
 ---
 = data-x='1000' id='plugins4'
