@@ -415,6 +415,53 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 <a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:30px; top: 15px" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
 
 ---
+= data-x='1000' id='fancy2'
+
+## Do you love fancy stuff?
+
+---
+= data-x='1000' id='chatops1'
+
+## #ChatOps
+
+---
+= data-x='1000' id='chatops2'
+
+## Devision of #YoloOps
+
+> ChatOps brings the context of work you are already doing into the conversations you are already having. [@jfryman](https://twitter.com/jfryman)
+
+* Remember [Eggdrop](http://www.eggheads.org/) and [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)?
+* Now combination of:
+	* [Hubot](https://hubot.github.com/), [Lita](https://www.lita.io/), [Err](http://errbot.net/)
+	* [Mattermost](http://www.mattermost.org/features/), [Rocket.chat](https://rocket.chat/#features), [Zulip](https://www.zulip.org/features.html)
+
+---
+= data-x='1000' id='chatops3'
+
+## ChatOps
+
+<img style="position: relative; left:30px; top: 15px" height="600" src="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg" alt="NewRelic ChatOps">
+
+---
+= data-x='1000' id='chatops4'
+
+## ChatOps
+
+<img style="position: relative; left:30px; top: 15px" height="600" src="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png" alt="PagerDuty ChatOps">
+
+---
+= data-x='1000' id='chatops5'
+
+## ChatOps
+
+* [ChatOps at GitHub](https://youtu.be/NST3u-GjjFw)
+* [pagerduty: So, What is ChatOps? And How do I Get Started?](https://www.pagerduty.com/blog/what-is-chatops/)
+* [ChatOps: Everything about deployments right inside your chat](blog.flowdock.com/2014/11/11/chatops-devops-with-hubot/)
+* [Ansible and ChatOps. Get started](https://stackstorm.com/2015/06/24/ansible-chatops-get-started-%F0%9F%9A%80/)
+* [To Boost DevOps, Try ChatOps](https://blog.newrelic.com/2015/08/18/chatops/)
+
+---
 = data-x='1000'
 ## Slides
 
@@ -434,4 +481,6 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Hotfix branch](http://nvie.com/img/hotfix-branches@2x.png)
 * [Slack](https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png)
 * [Mattermost latest features](http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif)
+* [NewRelic ChatOps](https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg)
+* [PagerDuty ChatOps](https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png)
 * [Foo](http://foo.bar) by FooBar
