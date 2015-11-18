@@ -462,13 +462,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [To Boost DevOps, Try ChatOps](https://blog.newrelic.com/2015/08/18/chatops/)
 
 ---
-= data-x='1000'
-## Slides
-
-* [http://url/](http://url/)
-* Lizenz: [CC-SA-3.0-DE](https://creativecommons.org/licenses/by-sa/3.0/de/)
-* Mail: Jan Wagner <waja@cyconet.org>  
-
+= data-x='1000' id='credits'
 
 ## Credits
 
@@ -483,4 +477,12 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Mattermost latest features](http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif)
 * [NewRelic ChatOps](https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg)
 * [PagerDuty ChatOps](https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png)
-* [Foo](http://foo.bar) by FooBar
+
+---
+= data-x='1000' id='slides'
+
+## Slides
+
+* [http://url/](http://url/)
+* Lizenz: [CC-SA-3.0-DE](https://creativecommons.org/licenses/by-sa/3.0/de/)
+* Mail: Jan Wagner <waja@cyconet.org>
