@@ -369,6 +369,52 @@ Development practice where:
 * [Laboard](https://laboard.io/)
 
 ---
+= data-x='1000' id='fancy1'
+
+## Some more fancy stuff?
+
+---
+= data-x='1000' id='comm1'
+
+<a href="https://slack.com/is" target="_blank" style="border-bottom:none;"><img style="position: relative; left:300px; top: 15px" src="https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png" alt="Slack"></a>
+
+---
+= data-x='1000' id='comm2'
+
+## Slack looks promising!
+
+* What if Slack servers are [breached](http://slackhq.com/post/114696167740/march-2015-security-incident-and-launch-of-2fa)?
+* What if Slack is sold?
+* Is there a __working__ export function?
+* Subscription
+
+---
+= data-x='1000' id='comm3'
+
+## Why did [Mattermost](http://www.mattermost.org/) [happen](http://www.mattermost.org/why-we-made-mattermost-an-open-source-slack-alternative/)?
+
+_In 2014, Slack became popular in Silicon Valley, and our company adopted it for messaging. But we had a problem–our archives were in our old messaging app. After our subscription expired, the old app wanted us to pay them to access our own data (and export still didn’t work!). We hated being locked in. We fumed. Our discussions, our research, our analyses, and gigabytes of our carefully tagged in-game artwork was all held for ransom by the service we had trusted. Slack was good, but it was another proprietary SaaS app, and we’d just been burned._
+
+---
+= data-x='1000' id='comm4'
+
+## Selfhosted Slack alternatives
+
+* [What are the best on-site alternatives to Slack?](http://www.slant.co/topics/3346/compare/~rocket-chat_vs_hipchat_vs_zulip)
+	* [Mattermost](http://www.mattermost.org/features/)
+	* [Rocket.chat](https://rocket.chat/#features)
+	* [Zulip](https://www.zulip.org/features.html)
+
+* [Five Open-Source Slack Alternatives](https://blog.okturtles.com/2015/11/five-open-source-slack-alternatives/)
+
+---
+= data-x='1000' id='matter1'
+
+## Mattermost
+
+<a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:30px; top: 15px" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
+
+---
 = data-x='1000'
 ## Slides
 
@@ -386,4 +432,6 @@ Development practice where:
 * [Feature branches](http://nvie.com/img/fb@2x.png)
 * [Flow](http://lanziani.com/slides/gitflow/images/gitflow_1.png)
 * [Hotfix branch](http://nvie.com/img/hotfix-branches@2x.png)
+* [Slack](https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png)
+* [Mattermost latest features](http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif)
 * [Foo](http://foo.bar) by FooBar
