@@ -13,14 +13,15 @@ title: Software Development from DevOps view
 = data-x='1000' id='oldtools1'
 ## Tools we used to manage our software
 
-* cp
-* rsync
 * vi
 * nano
 * kate
 * joe
 * eclipse
 * netbeans
+* cp
+* rsync
+* ftp
 
 ---
 = data-x='1000' id='oldtools2'
