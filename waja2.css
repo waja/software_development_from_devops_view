@@ -58,8 +58,8 @@ body {
 
 .step {
 
-    width: 1000px;
-    height: 700px;
+    width: 1100px;
+    height: 740px;
 
     padding: 40px 60px;
 
@@ -121,7 +121,6 @@ blockquote {
 	padding: 10px 0;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
-	width: 1060px;
 }
 table {
 	width:100%;
