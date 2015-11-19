@@ -33,7 +33,7 @@ title: Software Development from DevOps view
 	* f00b4r.php
 	* f00b4r_20040410.php
 	* f00b4r_production.php
-* distributed via scp/rsync
+* distributed via scp/rsync/ftp
 <!--TODO-->
 
 ---
