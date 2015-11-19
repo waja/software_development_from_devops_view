@@ -7,7 +7,7 @@ title: Software Development from DevOps view
 ### Jan Wagner <waja@cyconet.org>
 
 <br>
-<img style="position: relative; left:800px; top: 175px " src="images/image.png" alt="Just a not (yet) existing image.">
+<img style="position: relative; left:600px; top: 25px " src="images/image.png" alt="Just a not (yet) existing image.">
 <!--TODO-->
 
 ---
@@ -63,14 +63,15 @@ title: Software Development from DevOps view
 	* with all versions
 * Server down, no development
 
-<img style="position: relative; left:480px; top: -195px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
+<img style="position: relative; left:450px; top: -65px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
 
 ---
 = data-x='6000' data-rotate="90" id='whatnext'
 ## And now?
 
-* How to fix some of those issues?
-<!--TODO - Entertainment-->
+How to fix some of those issues?
+
+<img style="position: relative; left:300px; top: 10px" width="400" src="http://33.media.tumblr.com/9dc8e66ba2ba5ebc9e4f3d2f75ab9175/tumblr_inline_nxj4zhbzy61raprkq_500.gif">
 
 ---
 = data-x='0' data-y='1000' id='distributedvcs1'
@@ -87,9 +88,9 @@ title: Software Development from DevOps view
 
 <!--TODO-->
 
-<img style="position: relative; left:80px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
+<img style="position: relative; left:165px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
 
-<a style="font-size:xx-small; position: relative; left:580px; top: 55px" href="#centralvcs2">central VCS</a>
+<a style="font-size:xx-small; position: relative; left:980px; top: 55px" href="#centralvcs2">central VCS</a>
 
 ---
 = data-x='2400' data-y='1000' id='distributedvcs3'
@@ -105,9 +106,9 @@ title: Software Development from DevOps view
 
 ## Centralized decentralized
 
-<img style="position: relative; left:80px; top: 55px" width="487" src="http://nvie.com/img/centr-decentr@2x.png" alt="centralized decentralized">
+<img style="position: relative; left:250px; top: 55px" width="487" src="http://nvie.com/img/centr-decentr@2x.png" alt="centralized decentralized">
 
-<a style="font-size:xx-small; position: relative; left:580px; top: 55px" href="#centralvcs2">central VCS</a> <!--TODO-->
+<a style="font-size:xx-small; position: relative; left:980px; top: 55px" href="#centralvcs2">central VCS</a> <!--TODO-->
 
 ---
 = data-x='4800' data-y='1000' id='dvcsworkflow2'
@@ -141,7 +142,7 @@ title: Software Development from DevOps view
 * Branch naming convention needed
 * Typically exist in developer repos only, not in origin
 
-<img style="position: relative; left:80px; top: 15px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
+<img style="position: relative; left:750px; top: -300px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
 
 ---
 = data-x='8400' data-y='1000' id='dvcsworkflow5'
@@ -152,7 +153,7 @@ title: Software Development from DevOps view
 * Must merged back into ```develop``` AND ```master```
 * Branch naming convention: ```release-*```
 
-<img style="position: relative; left:80px; top: 15px" height="425"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow">
+<img style="position: relative; left:200px; top: 5px" height="400"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow">
 
 ---
 = data-x='9600' data-y='1000' id='dvcsworkflow6'
@@ -164,7 +165,7 @@ title: Software Development from DevOps view
 * Branch naming convention: ```hotfix-*```
 * Special form of release branch
 
-<img style="position: relative; left:80px; top: 15px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch">
+<img style="position: relative; left:660px; top: -200px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch">
 
 ---
 = data-x='10800' data-y='-1000' id='plugins1'
@@ -210,7 +211,7 @@ title: Software Development from DevOps view
 * For priorizing work and problems, we are using [Milestones](https://en.wikipedia.org/wiki/Milestone_(project_management))
 * Issues and Pull Requests are targeted for Milestones
 
-<img style="position: relative; left:50px; top: 25px " src="images/mp_github_milestones.png" alt="Milestones on github">
+<img style="position: relative; left:50px; top: 5px" height="400" src="images/mp_github_milestones.png" alt="Milestones on github">
 
 ---
 = data-x='6000' data-y='-1000' id='plugins5'
@@ -243,7 +244,7 @@ title: Software Development from DevOps view
 * Automation with [Travis-CI](https://travis-ci.org)
 	* Compiling and [running](https://travis-ci.org/monitoring-plugins/monitoring-plugins/builds/89240468) ```make test``` on every push (to github)
 
-<img style="position: relative; left:10px; top: 25px " src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci">
+<img style="position: relative; left:0px; top: 0px " src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci">
 
 ---
 = data-x='2400' data-y='-1000' id='plugins8'
@@ -255,7 +256,7 @@ title: Software Development from DevOps view
 	* This happens also for Pull Requests
 	* Can be observed directly in the PR
 
-<img style="position: relative; left:10px; top: 25px " src="images/mp_github_check_passed.png" alt="All checks passed on github">
+<img style="position: relative; left:60px; top: 0px " src="images/mp_github_check_passed.png" alt="All checks passed on github">
 
 ---
 = data-x='1200' data-y='-1000' id='plugins9'
@@ -279,7 +280,7 @@ title: Software Development from DevOps view
 	* [Static code](https://scan.coverity.com/projects/1435) analysis performed by [Coverity Scan](https://scan.coverity.com/)
 	* Merged _master_ via cronjob once a week into _coverity/master_, Travis triggers the Coverity Scan
 
-<img style="position: relative; left:75px; top: 25px " src="images/coverity_defects.png" alt="Defects found by Coverity">
+<img style="position: relative; left:75px; top: 10px " src="images/coverity_defects.png" alt="Defects found by Coverity">
 
 ---
 = data-x='0' data-y='2000' id='ci1'
@@ -416,7 +417,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 
 ## Mattermost
 
-<a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:30px; top: 15px" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
+<a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:0px; top: 15px" width="975" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
 
 ---
 = data-x='6000' data-y='-2000' data-rotate="180" id='fancy2'
@@ -445,14 +446,14 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 
 ## ChatOps
 
-<img style="position: relative; left:30px; top: 15px" height="600" src="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg" alt="NewRelic ChatOps">
+<img style="position: relative; left:50px; top: 0px" height="585" src="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg" alt="NewRelic ChatOps">
 
 ---
 = data-x='3600' data-y='-3000' id='chatops4'
 
 ## ChatOps
 
-<img style="position: relative; left:30px; top: 15px" height="600" src="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png" alt="PagerDuty ChatOps">
+<img style="position: relative; left:0px; top: 20px"  width="975" src="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png" alt="PagerDuty ChatOps">
 
 ---
 = data-x='4800' data-y='-3000' id='chatops5'
