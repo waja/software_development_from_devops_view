@@ -2,6 +2,7 @@
 author: Jan Wagner <waja@cyconet.org>
 title: Software Development from DevOps view
 ---
+= data-x='-3000' data-y='-2000' data-scale='4' id='title'
 ## Software Development from DevOps view
 ### Jan Wagner <waja@cyconet.org>
 
@@ -10,7 +11,7 @@ title: Software Development from DevOps view
 <!--TODO-->
 
 ---
-= data-x='1000' id='oldtools1'
+= data-x='0' id='oldtools1'
 ## Tools we used to manage our software
 
 * vi
@@ -24,7 +25,7 @@ title: Software Development from DevOps view
 * ftp
 
 ---
-= data-x='1000' id='oldtools2'
+= data-x='1200' id='oldtools2'
 ## Problems with our (old) tools
 
 * no chronological revisions
@@ -37,7 +38,7 @@ title: Software Development from DevOps view
 <!--TODO-->
 
 ---
-= data-x='1000' id='vcs'
+= data-x='2400' id='vcs'
 ## Way out?
 
 - __V__ersion __C__ontrol __S__ystem
@@ -47,7 +48,7 @@ title: Software Development from DevOps view
 	- why = commit message
 
 ---
-= data-x='1000' id='centralvcs1'
+= data-x='3600' id='centralvcs1'
 ## Tools we used to manage our software
 
 * [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System)
@@ -55,24 +56,24 @@ title: Software Development from DevOps view
 * [RCS](https://en.wikipedia.org/wiki/Revision_Control_System)
 
 ---
-= data-x='1000' id='centralvcs2'
+= data-x='4800' id='centralvcs2'
 ## [Client-server version control software](https://en.wikipedia.org/wiki/List_of_version_control_software#Client-server_model)
 
 * One linear software repository
 	* with all versions
 * Server down, no development
 
-<img style="position: relative; left:80px; top: 15px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
+<img style="position: relative; left:480px; top: -195px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure">
 
 ---
-= data-x='1000' data-rotate="90" id='whatnext'
+= data-x='6000' data-rotate="90" id='whatnext'
 ## And now?
 
 * How to fix some of those issues?
 <!--TODO - Entertainment-->
 
 ---
-= data-x='1000' id='distributedvcs1'
+= data-x='0' data-y='1000' id='distributedvcs1'
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control) (recently moves)
 
 * [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper)
@@ -81,15 +82,17 @@ title: Software Development from DevOps view
 * [Git](https://en.wikipedia.org/wiki/Git_(software))
 
 ---
-= data-x='1000' id='distributedvcs2'
+= data-x='1200' data-y='1000' id='distributedvcs2'
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
 
 <!--TODO-->
 
 <img style="position: relative; left:80px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server">
 
+<a style="font-size:xx-small; position: relative; left:580px; top: 55px" href="#centralvcs2">central VCS</a>
+
 ---
-= data-x='1000' id='distributedvcs2'
+= data-x='2400' data-y='1000' id='distributedvcs3'
 ## [Distributed Version Control](https://en.wikipedia.org/wiki/Distributed_version_control)
 
 * Local development possible
@@ -98,7 +101,7 @@ title: Software Development from DevOps view
 * Exchange of code with all participants possible - directly
 
 ---
-= data-x='1000' id='dvcsworkflow1'
+= data-x='3600' data-y='1000' id='dvcsworkflow1'
 
 ## Centralized decentralized
 
@@ -107,7 +110,7 @@ title: Software Development from DevOps view
 <a style="font-size:xx-small; position: relative; left:580px; top: 55px" href="#centralvcs2">central VCS</a> <!--TODO-->
 
 ---
-= data-x='1000' id='dvcsworkflow2'
+= data-x='4800' data-y='1000' id='dvcsworkflow2'
 
 ## The usual branches
 
@@ -117,7 +120,7 @@ title: Software Development from DevOps view
 * ```develop``` branch - development (integration) state
 
 ---
-= data-x='1000' id='dvcsworkflow3'
+= data-x='6000' data-y='1000' id='dvcsworkflow3'
 
 ## Support branches
 
@@ -128,7 +131,7 @@ title: Software Development from DevOps view
 	- hotfix branch
 
 ---
-= data-x='1000' id='dvcsworkflow4'
+= data-x='7200' data-y='1000' id='dvcsworkflow4'
 
 ## Feature branches
 
@@ -141,7 +144,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch">
 
 ---
-= data-x='1000' id='dvcsworkflow5'
+= data-x='8400' data-y='1000' id='dvcsworkflow5'
 
 ## Release branches
 
@@ -152,7 +155,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px" height="425"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow">
 
 ---
-= data-x='1000' id='dvcsworkflow6'
+= data-x='9600' data-y='1000' id='dvcsworkflow6'
 
 ## Hotfix branches
 
@@ -164,7 +167,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:80px; top: 15px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch">
 
 ---
-= data-x='1000' id='plugins1'
+= data-x='10800' data-y='-1000' id='plugins1'
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### [Team Communication](https://www.monitoring-plugins.org/support.html)
 
@@ -178,7 +181,7 @@ title: Software Development from DevOps view
 	* Realtime communication for peer coding, release work and discussions
 
 ---
-= data-x='1000' id='plugins2'
+= data-x='9600' data-y='-1000' id='plugins2'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Usual [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
@@ -191,7 +194,7 @@ title: Software Development from DevOps view
 	* Branches where developers are working on specific problems
 
 ---
-= data-x='1000' id='plugins3'
+= data-x='8400' data-y='-1000' id='plugins3'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Special [branches](https://github.com/monitoring-plugins/monitoring-plugins/branches)
@@ -200,7 +203,7 @@ title: Software Development from DevOps view
 * [Coverity](http://www.coverity.com/why-coverity/) Tests - [_coverity/master_ branch](https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master)
 
 ---
-= data-x='1000' id='plugins4'
+= data-x='7200' data-y='-1000' id='plugins4'
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### [Milestones](https://github.com/monitoring-plugins/monitoring-plugins/milestones)
 
@@ -210,7 +213,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:50px; top: 25px " src="images/mp_github_milestones.png" alt="Milestones on github">
 
 ---
-= data-x='1000' id='plugins5'
+= data-x='6000' data-y='-1000' id='plugins5'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Code contributions
@@ -221,7 +224,7 @@ title: Software Development from DevOps view
 	* even those are reviewed by other members usually through Pull Requests
 
 ---
-= data-x='1000' id='plugins6'
+= data-x='4800' data-y='-1000' id='plugins6'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -232,7 +235,7 @@ title: Software Development from DevOps view
 	* Yes we did!
 
 ---
-= data-x='1000' id='plugins7'
+= data-x='3600' data-y='-1000' id='plugins7'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -243,7 +246,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:10px; top: 25px " src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci">
 
 ---
-= data-x='1000' id='plugins8'
+= data-x='2400' data-y='-1000' id='plugins8'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -255,7 +258,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:10px; top: 25px " src="images/mp_github_check_passed.png" alt="All checks passed on github">
 
 ---
-= data-x='1000' id='plugins9'
+= data-x='1200' data-y='-1000' id='plugins9'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -267,7 +270,7 @@ title: Software Development from DevOps view
 
 
 ---
-= data-x='1000' id='plugins10'
+= data-x='0' data-y='-1000' id='plugins10'
 
 ## [Monitoring Plugins](https://www.monitoring-plugins.org/)
 ### Quality Assurance
@@ -279,7 +282,7 @@ title: Software Development from DevOps view
 <img style="position: relative; left:75px; top: 25px " src="images/coverity_defects.png" alt="Defects found by Coverity">
 
 ---
-= data-x='1000' id='ci1'
+= data-x='0' data-y='2000' id='ci1'
 
 ## [Continuous](https://en.wikipedia.org/wiki/Continuous_integration) what? Integration!
 
@@ -291,7 +294,7 @@ Development practice where:
 	* Usually when state changes
 
 ---
-= data-x='1000' id='ci2'
+= data-x='1200' data-y='2000' id='ci2'
 
 ## CI - why?
 
@@ -300,7 +303,7 @@ Development practice where:
 * Increase reliability of your deployments
 
 ---
-= data-x='1000' id='ci3'
+= data-x='2400' data-y='2000' id='ci3'
 
 ## CI - Caveat
 
@@ -311,7 +314,7 @@ Development practice where:
 	* Poor tests results into bad code quality
 
 ---
-= data-x='1000' id='ci4'
+= data-x='3600' data-y='2000' id='ci4'
 
 ## CI - For (PHP-)Webapplications
 
@@ -326,7 +329,7 @@ Development practice where:
 * [Running PHPUnit in Isolated Environments with Ubuntu, Docker, Gitlab &amp; Gitlab CI](http://dor.ky/running-phpunit-in-isolated-environments-with-ubuntu-docker-gitlab-gitlab-ci/)
 
 ---
-= data-x='1000' id='cq1'
+= data-x='4800' data-y='2000' id='cq1'
 
 ## Code Quality
 
@@ -347,7 +350,7 @@ Development practice where:
 * [SensioLabsInsight](https://insight.sensiolabs.com/)
 
 ---
-= data-x='1000' id='agile1'
+= data-x='6000' data-y='2000' id='agile1'
 
 ## Domesticating Developers and Project Management
 
@@ -358,7 +361,7 @@ Development practice where:
 * [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ---
-= data-x='1000' id='agile2'
+= data-x='7200' data-y='2000' id='agile2'
 
 ## Kanban Software
 
@@ -370,17 +373,17 @@ Development practice where:
 * [Laboard](https://laboard.io/)
 
 ---
-= data-x='1000' id='fancy1'
+= data-x='8200' data-y='2000' data-rotate="-90" id='fancy1'
 
 ## Some more fancy stuff?
 
 ---
-= data-x='1000' id='comm1'
+= data-x='0' data-y='-2000' id='comm1'
 
 <a href="https://slack.com/is" target="_blank" style="border-bottom:none;"><img style="position: relative; left:300px; top: 15px" src="https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png" alt="Slack"></a>
 
 ---
-= data-x='1000' id='comm2'
+= data-x='1200' data-y='-2000' id='comm2'
 
 ## Slack looks promising!
 
@@ -390,14 +393,14 @@ Development practice where:
 * Subscription
 
 ---
-= data-x='1000' id='comm3'
+= data-x='2400' data-y='-2000' id='comm3'
 
 ## Why did [Mattermost](http://www.mattermost.org/) [happen](http://www.mattermost.org/why-we-made-mattermost-an-open-source-slack-alternative/)?
 
 _In 2014, Slack became popular in Silicon Valley, and our company adopted it for messaging. But we had a problem–our archives were in our old messaging app. After our subscription expired, the old app wanted us to pay them to access our own data (and export still didn’t work!). We hated being locked in. We fumed. Our discussions, our research, our analyses, and gigabytes of our carefully tagged in-game artwork was all held for ransom by the service we had trusted. Slack was good, but it was another proprietary SaaS app, and we’d just been burned._
 
 ---
-= data-x='1000' id='comm4'
+= data-x='3600' data-y='-2000' id='comm4'
 
 ## Selfhosted Slack alternatives
 
@@ -409,24 +412,24 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Five Open-Source Slack Alternatives](https://blog.okturtles.com/2015/11/five-open-source-slack-alternatives/)
 
 ---
-= data-x='1000' id='matter1'
+= data-x='4800' data-y='-2000' id='matter1'
 
 ## Mattermost
 
 <a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:30px; top: 15px" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
 
 ---
-= data-x='1000' id='fancy2'
+= data-x='6000' data-y='-2000' data-rotate="180" id='fancy2'
 
 ## Do you love fancy stuff?
 
 ---
-= data-x='1000' id='chatops1'
+= data-x='0' data-y='-3000' id='chatops1'
 
 ## #ChatOps
 
 ---
-= data-x='1000' id='chatops2'
+= data-x='1200' data-y='-3000' id='chatops2'
 
 ## Devision of #YoloOps
 
@@ -438,21 +441,21 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 	* [Mattermost](http://www.mattermost.org/features/), [Rocket.chat](https://rocket.chat/#features), [Zulip](https://www.zulip.org/features.html)
 
 ---
-= data-x='1000' id='chatops3'
+= data-x='2400' data-y='-3000' id='chatops3'
 
 ## ChatOps
 
 <img style="position: relative; left:30px; top: 15px" height="600" src="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg" alt="NewRelic ChatOps">
 
 ---
-= data-x='1000' id='chatops4'
+= data-x='3600' data-y='-3000' id='chatops4'
 
 ## ChatOps
 
 <img style="position: relative; left:30px; top: 15px" height="600" src="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png" alt="PagerDuty ChatOps">
 
 ---
-= data-x='1000' id='chatops5'
+= data-x='4800' data-y='-3000' id='chatops5'
 
 ## ChatOps
 
@@ -463,7 +466,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [To Boost DevOps, Try ChatOps](https://blog.newrelic.com/2015/08/18/chatops/)
 
 ---
-= data-x='1000' id='credits'
+= data-x='1000' data-y='3000' id='credits'
 
 ## Credits
 
@@ -480,7 +483,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [PagerDuty ChatOps](https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png)
 
 ---
-= data-x='1000' id='slides'
+= data-x='-3000' data-y='1000' data-scale='4' id='slides'
 
 ## Slides
 
