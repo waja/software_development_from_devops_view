@@ -396,12 +396,17 @@ Development practice where:
 ---
 = data-x='2400' data-y='-2000' id='comm3'
 
+<a href="https://status.slack.com/2015-11/ab9ab36aec423f00" target="_blank" style="border-bottom:none;"><img style="position: relative; left:140px; top: 15px" width="700" src="https://pbs.twimg.com/media/CUhZezyWsAEGC-e.jpg" alt="Slack down"></a>
+
+---
+= data-x='3600' data-y='-2000' id='comm4'
+
 ## Why did [Mattermost](http://www.mattermost.org/) [happen](http://www.mattermost.org/why-we-made-mattermost-an-open-source-slack-alternative/)?
 
 _In 2014, Slack became popular in Silicon Valley, and our company adopted it for messaging. But we had a problem–our archives were in our old messaging app. After our subscription expired, the old app wanted us to pay them to access our own data (and export still didn’t work!). We hated being locked in. We fumed. Our discussions, our research, our analyses, and gigabytes of our carefully tagged in-game artwork was all held for ransom by the service we had trusted. Slack was good, but it was another proprietary SaaS app, and we’d just been burned._
 
 ---
-= data-x='3600' data-y='-2000' id='comm4'
+= data-x='4800' data-y='-2000' id='comm5'
 
 ## Selfhosted Slack alternatives
 
@@ -413,14 +418,14 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Five Open-Source Slack Alternatives](https://blog.okturtles.com/2015/11/five-open-source-slack-alternatives/)
 
 ---
-= data-x='4800' data-y='-2000' id='matter1'
+= data-x='6000' data-y='-2000' id='matter1'
 
 ## Mattermost
 
 <a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:0px; top: 15px" width="975" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a>
 
 ---
-= data-x='6000' data-y='-2000' data-rotate="180" id='fancy2'
+= data-x='7200' data-y='-2000' data-rotate="180" id='fancy2'
 
 ## Do you love fancy stuff?
 
@@ -479,6 +484,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Flow](http://lanziani.com/slides/gitflow/images/gitflow_1.png)
 * [Hotfix branch](http://nvie.com/img/hotfix-branches@2x.png)
 * [Slack](https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png)
+* [Slack Status](https://pbs.twimg.com/media/CUhZezyWsAEGC-e.jpg)
 * [Mattermost latest features](http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif)
 * [NewRelic ChatOps](https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg)
 * [PagerDuty ChatOps](https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png)
