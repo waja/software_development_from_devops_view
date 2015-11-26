@@ -3,19 +3,22 @@
 
 # Abstact
 
-- What we did in (use) in the past
-- What caused problems how we did it
-- In which direction did Software Development went recently (past 5 years)
-- [Monitoring Plugins](https://www.monitoring-plugins.org/)
-  - how are we organized
-  - workflow
-  - communication
-- Organizing a team of individualists
-- Automation - boon or bane?
-- Current trends in Software Development 
+
+* Tools we used in the past
+* Version Control System
+  * Central VCS
+  * Distributed VCS
+* Workflow example DVCS
+* Monitoring Plugins - How do we do?
+* Continuous Integration
+  * CI - For webapplications
+* Code Quality
+* Agile Development
+* Communication
+* ChatOps
 
 # Target audience
 
-- Project Manager
-- (Software) Developer
-- Collaborators
+* Project Manager
+* (Software) Developer
+* Collaborators
