@@ -7,7 +7,7 @@ title: Software Development from DevOps view
 ### Jan Wagner <waja@cyconet.org>
 
 <br>
-<img style="position: relative; left:600px; top: 25px " src="images/image.png" alt="Just a not (yet) existing image.">
+<!--<img style="position: relative; left:600px; top: 25px " src="images/image.png" alt="Just a not (yet) existing image.">-->
 <!--TODO-->
 
 ---
