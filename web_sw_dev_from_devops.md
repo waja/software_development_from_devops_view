@@ -328,6 +328,7 @@ Development practice where:
 
 * [Testing PHP code using Docker](http://scene-si.org/2015/10/06/testing-php-code-using-docker/)
 * [Running PHPUnit in Isolated Environments with Ubuntu, Docker, Gitlab &amp; Gitlab CI](http://dor.ky/running-phpunit-in-isolated-environments-with-ubuntu-docker-gitlab-gitlab-ci/)
+* [Continuous Integration With Gitlab CI](http://alanmonger.co.uk/php/continuous/integration/gitlab/ci/docker/2015/08/13/continuous-integration-with-gitlab-ci.html)
 
 ---
 = data-x='4800' data-y='2000' id='cq1'
