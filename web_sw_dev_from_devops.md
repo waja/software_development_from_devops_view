@@ -317,6 +317,17 @@ Development practice where:
 ---
 = data-x='3600' data-y='2000' id='ci4'
 
+## CI - (Self-)hosted solutions
+
+* [drone.io](https://github.com/drone/drone)
+* [dockunit.io](https://github.com/dockunit/platform)
+* [gitlab-ci] (https://about.gitlab.com/gitlab-ci/)
+* [captain](https://github.com/harbur/captain)
+* [docker-jenkins](https://github.com/jenkinsci/docker-plugin)
+
+---
+= data-x='4800' data-y='2000' id='ci5'
+
 ## CI - For (PHP-)Webapplications
 
 * Get an idea see [Travis-CI - Building a PHP project](http://docs.travis-ci.com/user/languages/php/)
@@ -331,7 +342,7 @@ Development practice where:
 * [Continuous Integration With Gitlab CI](http://alanmonger.co.uk/php/continuous/integration/gitlab/ci/docker/2015/08/13/continuous-integration-with-gitlab-ci.html)
 
 ---
-= data-x='4800' data-y='2000' id='cq1'
+= data-x='6000' data-y='2000' id='cq1'
 
 ## Code Quality
 
@@ -352,7 +363,7 @@ Development practice where:
 * [SensioLabsInsight](https://insight.sensiolabs.com/)
 
 ---
-= data-x='6000' data-y='2000' id='agile1'
+= data-x='7200' data-y='2000' id='agile1'
 
 ## Domesticating Developers and Project Management
 
@@ -363,7 +374,7 @@ Development practice where:
 * [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
 
 ---
-= data-x='7200' data-y='2000' id='agile2'
+= data-x='8400' data-y='2000' id='agile2'
 
 ## Kanban Software
 
@@ -375,7 +386,7 @@ Development practice where:
 * [Laboard](https://laboard.io/)
 
 ---
-= data-x='8200' data-y='2000' data-rotate="-90" id='fancy1'
+= data-x='9600' data-y='2000' data-rotate="-90" id='fancy1'
 
 ## Some more fancy stuff?
 
