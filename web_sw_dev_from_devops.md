@@ -343,7 +343,7 @@ Development practice where:
 ### Additional software packages
 
 * [GrumPHP - composer plugin](https://github.com/phpro/grumphp)
-* [Brackets/Edge Code extension](https://github.com/mikaeljorhult/brackets-php-code-quality-tools)
+* [Brackets/Edge Code extension - lint PHP files](https://github.com/mikaeljorhult/brackets-php-code-quality-tools)
 
 ### Hosted Services
 
