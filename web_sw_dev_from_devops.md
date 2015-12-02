@@ -1,9 +1,9 @@
 ---
 author: Jan Wagner <waja@cyconet.org>
-title: Software Development from DevOps view
+title: Software Development from the point of view of DevOps
 ---
 = data-x='-3000' data-y='-2000' data-scale='4' id='title'
-## Software Development from DevOps view
+## Software Development from the point of view of DevOps
 ### Jan Wagner <waja@cyconet.org>
 
 <br>
