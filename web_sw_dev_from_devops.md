@@ -514,6 +514,6 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 
 ## Slides
 
-* [http://url/](http://url/)
+* [http://waja.github.io/web_software_development_from_devops_view/web_sw_dev_from_devops/](http://waja.github.io/web_software_development_from_devops_view/web_sw_dev_from_devops/)
 * Lizenz: [CC-SA-3.0-DE](https://creativecommons.org/licenses/by-sa/3.0/de/)
 * Mail: Jan Wagner <waja@cyconet.org>
