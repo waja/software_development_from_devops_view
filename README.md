@@ -22,3 +22,9 @@
 * Project Manager
 * (Software) Developer
 * Collaborators
+
+## Building slides
+
+```
+mdpress -a -s waja2 web_sw_dev_from_devops.md
+```
