@@ -477,6 +477,13 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 
 ## ChatOps
 
+<img style="position: relative; left:0px; top: 20px"  width="975" src="https://pbs.twimg.com/media/CVSW6MtWIAAihJK.png" alt="Netways ChatOps">
+
+---
+= data-x='6000' data-y='-3000' id='chatops6'
+
+## ChatOps
+
 * [ChatOps at GitHub](https://youtu.be/NST3u-GjjFw)
 * [pagerduty: So, What is ChatOps? And How do I Get Started?](https://www.pagerduty.com/blog/what-is-chatops/)
 * [ChatOps: Everything about deployments right inside your chat](blog.flowdock.com/2014/11/11/chatops-devops-with-hubot/)
@@ -500,6 +507,7 @@ _In 2014, Slack became popular in Silicon Valley, and our company adopted it for
 * [Mattermost latest features](http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif)
 * [NewRelic ChatOps](https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg)
 * [PagerDuty ChatOps](https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png)
+* [Netways ChatOps](https://pbs.twimg.com/media/CVSW6MtWIAAihJK.png)
 
 ---
 = data-x='-3000' data-y='1000' data-scale='4' id='slides'
