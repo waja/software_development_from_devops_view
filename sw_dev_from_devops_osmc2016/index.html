@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Software Development seen from a Yolo^WDevOps</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <meta name="author" content="Jan Wagner <waja@cyconet.org>">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="shortcut icon" href="css/favicon.png" />
+    <link rel="apple-touch-icon" href="css/apple-touch-icon.png" />
+    <!-- Code Prettifier: -->
+<link href="css/highlight.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+  <div class="fallback-message">
+  <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+    <div id="impress">
+    <div class='step'  data-x='-3000' data-y='-2000' data-scale='4' id='title'>
+    
+<h2>Software Development seen from a Yolo^WDevOps</h2>
+
+<h3>Jan Wagner</h3>
+
+<p><br></p>
+
+<h4><a href="mailto:waja@cyconet.org">waja@cyconet.org</a></h4>
+
+<h4><a href="http://log.c5t.org/about">http://log.c5t.org/about</a></h4>
+
+<p><br>
+<!--<img style="position: relative; left:600px; top: 25px " src="images/image.png" alt="Just a not (yet) existing image.">-->
+<!--TODO--></p>
+</div>
+      <div class='step'  data-x='0' id='oldtools1'>
+    
+<h2>Tools we used to manage our software</h2>
+
+<ul>
+<li>vi</li>
+<li>nano</li>
+<li>kate</li>
+<li>joe</li>
+<li>eclipse</li>
+<li>netbeans</li>
+<li>cp</li>
+<li>rsync</li>
+<li>ftp</li>
+</ul>
+</div>
+      <div class='step'  data-x='1200' id='oldtools2'>
+    
+<h2>Problems with our (old) tools</h2>
+
+<ul>
+<li>no chronological revisions</li>
+<li>multiple different versions (forks) in production</li>
+<li>multiple different local versions
+
+<ul>
+<li>f00b4r.php</li>
+<li>f00b4r_20040410.php</li>
+<li>f00b4r_production.php</li>
+</ul></li>
+<li>distributed via scp/rsync/ftp
+<!--TODO--></li>
+</ul>
+</div>
+      <div class='step'  data-x='2400' id='vcs'>
+    
+<h2>Way out?</h2>
+
+<ul>
+<li><strong>V</strong>ersion <strong>C</strong>ontrol <strong>S</strong>ystem
+
+<ul>
+<li>tracks <strong>changes of files and folder</strong></li>
+<li>when = date of the commit</li>
+<li>who = name of author</li>
+<li>why = commit message</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='3600' id='centralvcs1'>
+    
+<h2>Tools we used to manage our software</h2>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Concurrent_Versions_System">CVS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Apache_Subversion">Subversion</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Revision_Control_System">RCS</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='4800' id='centralvcs2'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/List_of_version_control_software#Client-server_model">Client-server version control software</a></h2>
+
+<ul>
+<li>One linear software repository
+
+<ul>
+<li>with all versions</li>
+</ul></li>
+<li>Server down, no development</li>
+</ul>
+
+<p><img style="position: relative; left:450px; top: -65px " height="300" width="500" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png" alt="SVN Structure"></p>
+</div>
+      <div class='step'  data-x='6000' data-rotate="90" id='whatnext'>
+    
+<h2>And now?</h2>
+
+<p>How to fix some of those issues?</p>
+
+<p><img style="position: relative; left:300px; top: 10px" width="400" src="http://33.media.tumblr.com/9dc8e66ba2ba5ebc9e4f3d2f75ab9175/tumblr_inline_nxj4zhbzy61raprkq_500.gif"></p>
+</div>
+      <div class='step'  data-x='0' data-y='1000' id='distributedvcs1'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/Distributed_version_control">Distributed Version Control</a> (recently moves)</h2>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/BitKeeper">BitKeeper</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mercurial_(software)">Mercurial / HG</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bazaar_(software)">Bazaar</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Git_(software)">Git</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='1200' data-y='1000' id='distributedvcs2'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/Distributed_version_control">Distributed Version Control</a></h2>
+
+<!--TODO-->
+
+<p><img style="position: relative; left:165px; top: 15px " height="450" width="650" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png" alt="Git client/server"></p>
+
+<p><a style="font-size:xx-small; position: relative; left:930px; top: 55px" href="#centralvcs2">central VCS</a></p>
+</div>
+      <div class='step'  data-x='2400' data-y='1000' id='distributedvcs3'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/Distributed_version_control">Distributed Version Control</a></h2>
+
+<ul>
+<li>Local development possible
+
+<ul>
+<li>committing, branching, tagging ...</li>
+<li>working offline</li>
+</ul></li>
+<li>Exchange of code with all participants possible - directly</li>
+</ul>
+</div>
+      <div class='step'  data-x='3600' data-y='1000' id='dvcsworkflow1'>
+    
+<h2>Centralized decentralized</h2>
+
+<p><img style="position: relative; left:250px; top: 55px" width="487" src="http://nvie.com/img/centr-decentr@2x.png" alt="centralized decentralized"></p>
+
+<p><a style="font-size:xx-small; position: relative; left:930px; top: 55px" href="#plugins1">M-P</a> <!--TODO--></p>
+</div>
+      <div class='step'  data-x='4800' data-y='1000' id='dvcsworkflow2'>
+    
+<h2>The usual branches</h2>
+
+<p><img style="position: relative; left:80px; top: 15px" width="267" src="http://nvie.com/img/main-branches@2x.png" alt="usual branches"></p>
+
+<ul>
+<li><code class='inline prettyprint'>master</code> branch - production ready state</li>
+<li><code class='inline prettyprint'>develop</code> branch - development (integration) state</li>
+</ul>
+</div>
+      <div class='step'  data-x='6000' data-y='1000' id='dvcsworkflow3'>
+    
+<h2>Support branches</h2>
+
+<ul>
+<li>unlike the long-running <code class='inline prettyprint'>master</code> and <code class='inline prettyprint'>develop</code> branches, there are branches with limited life time</li>
+<li>for example there might different types of branches
+
+<ul>
+<li>feature (topic) branches</li>
+<li>release branches</li>
+<li>hotfix branch</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='7200' data-y='1000' id='dvcsworkflow4'>
+    
+<h2>Feature branches</h2>
+
+<ul>
+<li>May branch of <code class='inline prettyprint'>develop</code> or any other feature branch</li>
+<li>Must merged back into <code class='inline prettyprint'>develop</code>
+
+<ul>
+<li>If not, it will be discarded (and deleted)</li>
+</ul></li>
+<li>Branch naming convention needed</li>
+<li>Typically exist in developer repos only, not in origin</li>
+</ul>
+
+<p><img style="position: relative; left:750px; top: -300px" width="133" src="http://nvie.com/img/fb@2x.png" alt="feature branch"></p>
+</div>
+      <div class='step'  data-x='8400' data-y='1000' id='dvcsworkflow5'>
+    
+<h2>Release branches</h2>
+
+<ul>
+<li>May branch of <code class='inline prettyprint'>develop</code></li>
+<li>Must merged back into <code class='inline prettyprint'>develop</code> AND <code class='inline prettyprint'>master</code></li>
+<li>Branch naming convention: <code class='inline prettyprint'>release-*</code></li>
+</ul>
+
+<p><img style="position: relative; left:200px; top: 5px" height="400"  src="http://lanziani.com/slides/gitflow/images/gitflow_1.png" alt="gitflow"></p>
+</div>
+      <div class='step'  data-x='9600' data-y='1000' id='dvcsworkflow6'>
+    
+<h2>Hotfix branches</h2>
+
+<ul>
+<li>May branch of <code class='inline prettyprint'>master</code></li>
+<li>Must merged back into <code class='inline prettyprint'>develop</code> AND <code class='inline prettyprint'>master</code></li>
+<li>Branch naming convention: <code class='inline prettyprint'>hotfix-*</code></li>
+<li>Special form of release branch</li>
+</ul>
+
+<p><img style="position: relative; left:660px; top: -200px" width="316" src="http://nvie.com/img/hotfix-branches@2x.png" alt="hotfix branch"></p>
+</div>
+      <div class='step'  data-x='12000' data-y='-1000' id='plugins1'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3><a href="https://www.monitoring-plugins.org/support.html">Team Communication</a></h3>
+
+<ul>
+<li><a href="https://www.monitoring-plugins.org/support.html">Mailing Lists</a>
+
+<ul>
+<li>For legacy reasons</li>
+<li>Mail seems not much loved these days</li>
+</ul></li>
+<li><a href="https://github.com/monitoring-plugins/monitoring-plugins/issues">Issues</a> / <a href="https://github.com/monitoring-plugins/monitoring-plugins/pulls">Pull Requests</a>
+
+<ul>
+<li>Fits developers workflow</li>
+</ul></li>
+<li><a href="http://webchat.freenode.net/?channels=monitoring-plugins">IRC</a>
+
+<ul>
+<li>Most usual</li>
+<li>Realtime communication for peer coding, release work and discussions</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='10800' data-y='-1000' id='plugins2'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Usual <a href="https://github.com/monitoring-plugins/monitoring-plugins/branches">branches</a></h3>
+
+<ul>
+<li>Development - <a href="https://github.com/monitoring-plugins/monitoring-plugins/tree/master"><em>master</em> branch</a></li>
+<li>Hotfixes - <a href="https://github.com/monitoring-plugins/monitoring-plugins/tree/maint-2.1"><em>maint-X.Y</em> branch</a>
+
+<ul>
+<li>usual <code class='inline prettyprint'>cherry-pick</code> from <em>master</em></li>
+</ul></li>
+<li>Feature - no strict naming convention
+
+<ul>
+<li>Pull Requests from external contributors</li>
+<li>Branches where developers are working on specific problems</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='9600' data-y='-1000' id='plugins3'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Special <a href="https://github.com/monitoring-plugins/monitoring-plugins/branches">branches</a></h3>
+
+<ul>
+<li>Proposed Updates - <a href="https://github.com/monitoring-plugins/monitoring-plugins/tree/pu"><em>pu</em> branch</a></li>
+<li><a href="http://www.coverity.com/why-coverity/">Coverity</a> Tests - <a href="https://github.com/monitoring-plugins/monitoring-plugins/tree/coverity/master"><em>coverity/master</em> branch</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='8400' data-y='-1000' id='plugins4'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3><a href="https://github.com/monitoring-plugins/monitoring-plugins/milestones">Milestones</a></h3>
+
+<ul>
+<li>For prioritizing work and problems, we are using <a href="https://en.wikipedia.org/wiki/Milestone_(project_management)">Milestones</a></li>
+<li>Issues and Pull Requests are targeted for Milestones</li>
+</ul>
+
+<p><img style="position: relative; left:50px; top: 5px" height="400" src="images/mp_github_milestones.png" alt="Milestones on github"></p>
+</div>
+      <div class='step'  data-x='7200' data-y='-1000' id='plugins5'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Code contributions</h3>
+
+<ul>
+<li>via <a href="https://github.com/monitoring-plugins/monitoring-plugins/pulls">Pull Requests</a></li>
+<li>Work by <a href="https://www.monitoring-plugins.org/team.html">developers</a>
+
+<ul>
+<li>done in Feature branches</li>
+<li>even those are reviewed by other members usually through Pull Requests</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='6000' data-y='-1000' id='plugins6'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Quality Assurance</h3>
+
+<ul>
+<li>We ship test <a href="http://www.monitoring-plugins.org/doc/guidelines.html#TESTCASES">cases</a> for plugins and C library functions</li>
+<li><code class='inline prettyprint'>make test</code> runs those</li>
+<li>Can we take further?
+
+<ul>
+<li>Yes we did!</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='4800' data-y='-1000' id='plugins7'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Quality Assurance</h3>
+
+<ul>
+<li>Automation with <a href="https://travis-ci.org">Travis-CI</a>
+
+<ul>
+<li>Compiling and <a href="https://travis-ci.org/monitoring-plugins/monitoring-plugins/builds/89240468">running</a> <code class='inline prettyprint'>make test</code> on every push (to github)</li>
+</ul></li>
+</ul>
+
+<p><img style="position: relative; left:0px; top: 0px " width="975" src="images/mp_travis_check_passed.png" alt="All checks passed on travis-ci"></p>
+</div>
+      <div class='step'  data-x='3600' data-y='-1000' id='plugins8'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Quality Assurance</h3>
+
+<ul>
+<li>Automation with <a href="https://travis-ci.org">Travis-CI</a>
+
+<ul>
+<li>This happens also for Pull Requests</li>
+<li>Can be observed directly in the PR</li>
+</ul></li>
+</ul>
+
+<p><img style="position: relative; left:60px; top: 0px " src="images/mp_github_check_passed.png" alt="All checks passed on github"></p>
+</div>
+      <div class='step'  data-x='2400' data-y='-1000' id='plugins9'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Quality Assurance</h3>
+
+<ul>
+<li>Reliability of (Travis-)<a href="https://en.wikipedia.org/wiki/Continuous_integration">CI</a>
+
+<ul>
+<li>Only as good as coverage of <code class='inline prettyprint'>make test</code></li>
+<li>When depending on external infrastructure, this may vary</li>
+<li>Depends on reliability of CI-infrastructure / build servers</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='1200' data-y='-1000' id='plugins10'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Quality Assurance</h3>
+
+<ul>
+<li>Code Quality
+
+<ul>
+<li><a href="https://scan.coverity.com/projects/1435">Static code</a> analysis performed by <a href="https://scan.coverity.com/">Coverity Scan</a></li>
+<li>Merged <em>master</em> via cronjob once a week into <em>coverity/master</em>, Travis triggers the Coverity Scan</li>
+</ul></li>
+</ul>
+
+<p><img style="position: relative; left:75px; top: 10px " src="images/coverity_defects.png" alt="Defects found by Coverity"></p>
+</div>
+      <div class='step'  data-x='0' data-y='-1000' id='plugins11'>
+    
+<h2><a href="https://www.monitoring-plugins.org/">Monitoring Plugins</a></h2>
+
+<h3>Infrastruture</h3>
+
+<ul>
+<li>On the surface we massively rely on external resources</li>
+<li>In fact we run own project infrastructure
+
+<ul>
+<li><a href="https://www.monitoring-plugins.org/">Website</a></li>
+<li><a href="http://git.monitoring-plugins.org/repositories">Git Mirror</a></li>
+<li><a href="https://www.monitoring-plugins.org/support.html#mailing-lists">Mailing Lists</a></li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='0' data-y='-4000' id='githost1'>
+    
+<h2>Git hosting solutions</h2>
+
+<ul>
+<li>Gitlab</li>
+<li>Gogs (Go Git Service)</li>
+</ul>
+</div>
+      <div class='step'  data-x='1200' data-y='-4000' id='githost2'>
+    
+<h2><a href="https://about.gitlab.com/features/">Gitlab</a></h2>
+
+<ul>
+<li>Most comprehensive alternative to github</li>
+<li><a href="https://about.gitlab.com/products/#compare-options">Community (CE)</a> and <a href="https://about.gitlab.com/products/#compare-options">Enterprise (EE)</a> Edition (read <a href="https://en.wikipedia.org/wiki/Open_core">OpenCore</a>)</li>
+<li>Large and great community</li>
+</ul>
+</div>
+      <div class='step'  data-x='2400' data-y='-4000' id='githost3'>
+    
+<h2><a href="https://gogs.io/#screenshot-scroll">Gogs</a></h2>
+
+<ul>
+<li>Minimal requirements (Raspberry Pi may fit)</li>
+<li>written in go</li>
+<li>LDAP support</li>
+</ul>
+</div>
+      <div class='step'  data-x='0' data-y='2000' id='ci1'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/Continuous_integration">Continuous</a> what? Integration!</h2>
+
+<p>Development practice where:</p>
+
+<ul>
+<li>Developers push code regularly</li>
+<li>(Build and) verified automatically</li>
+<li>Developers (and PM) are notified of the code (and build) status
+
+<ul>
+<li>Usually when state changes</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='1200' data-y='2000' id='ci2'>
+    
+<h2>CI - why?</h2>
+
+<ul>
+<li>Be aware of regressions and problems at an early stage</li>
+<li>Increase productivity and project pace</li>
+<li>Increase reliability of your deployments</li>
+</ul>
+</div>
+      <div class='step'  data-x='2400' data-y='2000' id='ci3'>
+    
+<h2>CI - Caveat</h2>
+
+<ul>
+<li>Automated tests depends on
+
+<ul>
+<li>Quality of your tests</li>
+<li>Coverage of your tests</li>
+</ul></li>
+<li>Developers may only focus on succeeding tests
+
+<ul>
+<li>Poor tests results into bad code quality</li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='3600' data-y='2000' id='ci4'>
+    
+<h2>CI - (Self-)hosted solutions</h2>
+
+<ul>
+<li><a href="https://jenkins.io/">jenkins.io</a></li>
+<li><a href="https://github.com/drone/drone">drone.io</a></li>
+<li><a href="https://github.com/dockunit/platform">dockunit.io</a> (abandoned)</li>
+<li><a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a></li>
+<li><a href="https://github.com/harbur/captain">captain</a> (abandoned)</li>
+<li><a href="https://github.com/jenkinsci/docker-plugin">docker-jenkins</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='4800' data-y='2000' id='ci5'>
+    
+<h2>CI - Running test frameworks</h2>
+
+<ul>
+<li>Look into <a href="https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis">static code analysis tools</a> for you used language</li>
+<li>Consider <a href="https://pmd.github.io/">PMD</a> to find <a href="https://en.wikipedia.org/wiki/PMD_(software)#Features">inefficient code</a></li>
+</ul>
+
+<h3>Examples</h3>
+
+<ul>
+<li>Get an idea see <a href="http://docs.travis-ci.com/user/languages/php/">Travis-CI - Building a PHP project</a></li>
+<li>Using <a href="http://oclint.org/">OCLint</a> with <a href="http://oclint-docs.readthedocs.io/en/stable/guide/travisci.html">Travis CI</a> or <a href="http://oclint-docs.readthedocs.io/en/stable/guide/jenkins.html">Jenkins CI</a> for testing C, C++, Objective-C</li>
+</ul>
+</div>
+      <div class='step'  data-x='6000' data-y='2000' id='cq1'>
+    
+<h2>Code Quality</h2>
+
+<h3>Hosted Services (Free as Beer for OSS.)</h3>
+
+<ul>
+<li><a href="https://scrutinizer-ci.com/">Scrutinizer CI</a></li>
+<li><a href="https://codeclimate.com/">Code Climate</a></li>
+<li><a href="https://insight.sensiolabs.com/">SensioLabsInsight</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='7200' data-y='2000' id='cd1'>
+    
+<h2><a href="https://en.wikipedia.org/wiki/Continuous_delivery">Continuous Delivery</a></h2>
+
+<ul>
+<li>Extends CI through deployment</li>
+</ul>
+
+<p><img style="position: relative; left:0px; top: 0px " src="https://about.gitlab.com/images/direction/cicd/pipelines-goal.svg" alt="Gitlab Pipelines"></p>
+
+<h3>Done by <a href="https://en.wikipedia.org/wiki/Continuous_delivery#Deployment_pipeline">Pipelines</a></h3>
+
+<ul>
+<li><a href="https://jenkins.io/solutions/pipeline/">Jenkins Pipeline Plugin</a></li>
+<li><a href="https://docs.gitlab.com/ce/ci/pipelines.html">Gitlab Pipelines</a> <a style="font-size:xx-small;" href="https://docs.gitlab.com/ce/ci/yaml/README.html#when">.gitlab-ci.yml</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='8400' data-y='2000' id='agile1'>
+    
+<h2>Domesticating Developers and Project Management</h2>
+
+<h3>Many <a href="https://en.wikipedia.org/wiki/List_of_software_development_philosophies#Software_development_methodology">Software development methodologies</a></h3>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Kanban_(development)">Kanban</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pair_programming">Pair programming</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Scrum_(software_development)">Scrum</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='9600' data-y='2000' id='agile2'>
+    
+<p><img style="position: relative; left:275px; top: 10px " height="400" src="images/trello-mark-circle.png" alt="Trello"></p>
+</div>
+      <div class='step'  data-x='10800' data-y='2000' id='agile3'>
+    
+<h2><a href="https://about.gitlab.com/solutions/issueboard/">Gitlab Issue Board</a></h2>
+
+<p><a href="https://www.youtube.com/watch?v=UWsJ8tkHAa8" target="_blank" style="border-bottom:none;"><img style="position: relative; left:50px; top: 10px " height="400" src="https://about.gitlab.com/images/8_11/issue_boards.gif" alt="Gitlab Issue Board"></a></p>
+</div>
+      <div class='step'  data-x='12000' data-y='2000' id='agile4'>
+    
+<h2><a href="https://github.com/philschatz/gh-board">Serverless Kanban for GitHub Issues using gh-pages</a></h2>
+
+<p><img style="position: relative; left:50px; top: 10px " height="400" src="https://cloud.githubusercontent.com/assets/253202/13620649/4ef888cc-e55f-11e5-8576-8970abba8660.png" alt="Serverless Kanban for GitHub Issues"></p>
+</div>
+      <div class='step'  data-x='12000' data-y='2000' data-rotate="-90" id='fancy1'>
+    
+<h2>Some more fancy stuff?</h2>
+</div>
+      <div class='step'  data-x='0' data-y='-2000' id='comm1'>
+    
+<p><a href="https://slack.com/is" target="_blank" style="border-bottom:none;"><img style="position: relative; left:300px; top: 15px" src="https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png" alt="Slack"></a></p>
+</div>
+      <div class='step'  data-x='1200' data-y='-2000' id='comm2'>
+    
+<h2>Slack looks promising!</h2>
+
+<ul>
+<li>What if Slack servers are <a href="http://slackhq.com/post/114696167740/march-2015-security-incident-and-launch-of-2fa">breached</a>?</li>
+<li>What if Slack is sold?</li>
+<li>Is there a <strong>working</strong> export function?</li>
+<li>Subscription</li>
+</ul>
+</div>
+      <div class='step'  data-x='2400' data-y='-2000' id='comm3'>
+    
+<p><a href="https://status.slack.com/2015-11/ab9ab36aec423f00" target="_blank" style="border-bottom:none;"><img style="position: relative; left:140px; top: 15px" width="700" src="https://pbs.twimg.com/media/CUhZezyWsAEGC-e.jpg" alt="Slack down"></a></p>
+</div>
+      <div class='step'  data-x='3600' data-y='-2000' id='comm4'>
+    
+<h2>Why did <a href="http://www.mattermost.org/">Mattermost</a> <a href="http://www.mattermost.org/why-we-made-mattermost-an-open-source-slack-alternative/">happen</a>?</h2>
+
+<p><em>In 2014, Slack became popular in Silicon Valley, and our company adopted it for messaging. But we had a problem–our archives were in our old messaging app. After our subscription expired, the old app wanted us to pay them to access our own data (and export still didn’t work!). We hated being locked in. We fumed. Our discussions, our research, our analyses, and gigabytes of our carefully tagged in-game artwork was all held for ransom by the service we had trusted. Slack was good, but it was another proprietary SaaS app, and we’d just been burned.</em></p>
+</div>
+      <div class='step'  data-x='4800' data-y='-2000' id='comm5'>
+    
+<h2>Selfhosted Slack alternatives</h2>
+
+<ul>
+<li><p><a href="http://www.slant.co/topics/3346/compare/%7Erocket-chat_vs_hipchat_vs_zulip">What are the best on-site alternatives to Slack?</a></p>
+
+<ul>
+<li><a href="http://www.mattermost.org/features/">Mattermost</a></li>
+<li><a href="https://rocket.chat/#features">Rocket.chat</a></li>
+<li><a href="https://www.zulip.org/features.html">Zulip</a></li>
+</ul></li>
+<li><p><a href="https://blog.okturtles.com/2015/11/five-open-source-slack-alternatives/">Five Open-Source Slack Alternatives</a></p></li>
+</ul>
+</div>
+      <div class='step'  data-x='6000' data-y='-2000' id='matter1'>
+    
+<h2>Mattermost</h2>
+
+<p><a href="http://www.mattermost.org/category/blog/" target="_blank" style="border-bottom:none;"><img style="position: relative; left:0px; top: 15px" width="975" src="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif" alt="Mattermost"></a> <!-- TODO: Update to recent slides --></p>
+</div>
+      <div class='step'  data-x='7200' data-y='-2000' data-rotate="180" id='fancy2'>
+    
+<h2>Do you love fancy stuff?</h2>
+</div>
+      <div class='step'  data-x='0' data-y='-3000' id='chatops1'>
+    
+<h2>#ChatOps</h2>
+</div>
+      <div class='step'  data-x='1200' data-y='-3000' id='chatops2'>
+    
+<h2>Devision of #YoloOps</h2>
+
+<blockquote>
+<p>ChatOps brings the context of work you are already doing into the conversations you are already having. <a href="https://twitter.com/jfryman">@jfryman</a></p>
+</blockquote>
+
+<ul>
+<li>Remember <a href="http://www.eggheads.org/">Eggdrop</a> and <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>?</li>
+<li>Now combination of:
+
+<ul>
+<li><a href="https://hubot.github.com/">Hubot</a>, <a href="https://www.lita.io/">Lita</a>, <a href="http://errbot.net/">Err</a></li>
+<li><a href="http://www.mattermost.org/features/">Mattermost</a>, <a href="https://rocket.chat/#features">Rocket.chat</a>, <a href="https://www.zulip.org/features.html">Zulip</a></li>
+</ul></li>
+</ul>
+</div>
+      <div class='step'  data-x='2400' data-y='-3000' id='chatops3'>
+    
+<h2>ChatOps</h2>
+
+<p><img style="position: relative; left:50px; top: 0px" height="585" src="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg" alt="NewRelic ChatOps"></p>
+</div>
+      <div class='step'  data-x='3600' data-y='-3000' id='chatops4'>
+    
+<h2>ChatOps</h2>
+
+<p><img style="position: relative; left:0px; top: 20px"  width="975" src="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png" alt="PagerDuty ChatOps"></p>
+</div>
+      <div class='step'  data-x='4800' data-y='-3000' id='chatops5'>
+    
+<h2>ChatOps</h2>
+
+<p><img style="position: relative; left:0px; top: 20px"  width="975" src="https://pbs.twimg.com/media/CVSW6MtWIAAihJK.png" alt="Netways ChatOps"></p>
+</div>
+      <div class='step'  data-x='6000' data-y='-3000' id='chatops6'>
+    
+<h2>ChatOps</h2>
+
+<ul>
+<li><a href="https://youtu.be/NST3u-GjjFw">ChatOps at GitHub</a></li>
+<li><a href="https://www.pagerduty.com/blog/what-is-chatops/">pagerduty: So, What is ChatOps? And How do I Get Started?</a></li>
+<li><a href="blog.flowdock.com/2014/11/11/chatops-devops-with-hubot/">ChatOps: Everything about deployments right inside your chat</a></li>
+<li><a href="https://stackstorm.com/2015/06/24/ansible-chatops-get-started-%F0%9F%9A%80/">Ansible and ChatOps. Get started</a></li>
+<li><a href="https://blog.newrelic.com/2015/08/18/chatops/">To Boost DevOps, Try ChatOps</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='1000' data-y='4000' id='credits1'>
+    
+<h2>Credits</h2>
+
+<ul>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/1/1a/SVN_Server_Client_Structure.png">SVN Structure</a></li>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png">Git client/server</a></li>
+<li><a href="http://nvie.com/img/centr-decentr@2x.png">Decentralized but centralized</a></li>
+<li><a href="http://nvie.com/img/main-branches@2x.png">The main branches</a></li>
+<li><a href="http://nvie.com/img/fb@2x.png">Feature branches</a></li>
+<li><a href="http://lanziani.com/slides/gitflow/images/gitflow_1.png">Flow</a></li>
+<li><a href="http://nvie.com/img/hotfix-branches@2x.png">Hotfix branch</a></li>
+<li><a href="https://about.gitlab.com/images/direction/cicd/pipelines-goal.svg">Gitlab Pipelines</a></li>
+<li><a href="https://about.gitlab.com/images/8_11/issue_boards.gif">Gitlab Issue Board</a></li>
+<li><a href="https://cloud.githubusercontent.com/assets/253202/13620649/4ef888cc-e55f-11e5-8576-8970abba8660.png">Serverless Kanban for GitHub Issues using gh-pages</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='2200' data-y='4000' id='credits2'>
+    
+<h2>Credits</h2>
+
+<ul>
+<li><a href="https://slack.global.ssl.fastly.net/66f9/img/tour/tools.png">Slack</a></li>
+<li><a href="https://pbs.twimg.com/media/CUhZezyWsAEGC-e.jpg">Slack Status</a></li>
+<li><a href="http://www.mattermost.org/wp-content/uploads/2015/11/Mattermost-v1.2.gif">Mattermost latest features</a></li>
+<li><a href="https://blog.newrelic.com/wp-content/uploads/new-relic-chat.jpg">NewRelic ChatOps</a></li>
+<li><a href="https://www.pagerduty.com/assets/blog/Screen-Shot-2014-12-02-at-2.11.12-PM-1024x569.png">PagerDuty ChatOps</a></li>
+<li><a href="https://pbs.twimg.com/media/CVSW6MtWIAAihJK.png">Netways ChatOps</a></li>
+</ul>
+</div>
+      <div class='step'  data-x='-3000' data-y='1000' data-scale='4' id='slides'>
+    
+<h2>Slides</h2>
+
+<p><li><a style="font-size:x-large" href="http://waja.github.io/software_development_from_devops_view/sw_dev_from_devops_osmc2016">waja.github.io/software_development_from_devops_view/sw_dev_from_devops_osmc2016</a></li>
+<li><a href="https://github.com/astefanutti/decktape">DeckTape - PDF exporter for HTML presentation frameworks</a></li>
+<li>Lizenz: <a href="https://creativecommons.org/licenses/by-sa/3.0/de/">CC-SA-3.0-DE</a></li>
+<li>Mail: Jan Wagner <a href="mailto:waja@cyconet.org">waja@cyconet.org</a></li></p>
+
+      </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
+    
